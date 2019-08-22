@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
+    "target": "es5",
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
-    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
     // "lib": [],                             /* Specify library files to be included in the compilation. */
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
@@ -64,7 +64,6 @@
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "es5",
     "lib": [ "es5", "dom", "es2015.promise", "scripthost" ],
     "outFile": "js/maintainable_game.js"
   },
